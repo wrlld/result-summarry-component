@@ -59,7 +59,6 @@ body{
 }
 #rct{
     display: flex;
-    justify-content: ;
     padding: 5px;
     color: hsl(0, 100%, 67%);
     background-color: hsl(0, 64%, 92%);
