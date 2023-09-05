@@ -166,7 +166,6 @@ body{
 }
 @media(max-width: 414px){
     .container{
-        border: 1px solid brown;
         height: 100vh;
         width: 80%;
         flex-direction: column;
