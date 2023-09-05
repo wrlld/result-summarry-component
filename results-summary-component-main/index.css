@@ -8,6 +8,7 @@ body{
     height: 100vh;
     background-color: hsl(221, 100%, 96%);
     overflow-x: hidden;
+    margin: auto;
 }
 .container{
     display: flex;
@@ -19,14 +20,12 @@ body{
 .design{
     display: flex;
     width: 50%;
-    height: 100%;
     border-radius: 20px;
     background-image: linear-gradient( 180deg,hsl(224, 42%, 52%),hsl(241, 92%, 41%)); 
 }
 .holder{
     display: flex;
     width: 50%;
-    height: 100%;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -34,6 +33,11 @@ body{
     height: 100%;
     width: 100%;
     margin: 20px 20px;
+}
+.bucket .sam{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 700;
+    color: black;
 }
 .bucket p{
     font-size: 18px;
@@ -113,7 +117,7 @@ body{
     align-items: center;
     justify-content: center;
     margin: auto;
-    margin-top: 15px;
+    margin-top: 20px;
     height: 140px;
     width: 140px;
     border-radius: 70px;
@@ -133,7 +137,7 @@ body{
     display: flex;
     justify-content: center;
     font-size: 20px;
-    margin-top: 23px;
+    margin-top: 30px;
     font-family: 'Hanken Grotesk', sans-serif;
     font-weight: 700;
     color: hsl(0, 0%, 100%);
@@ -145,7 +149,7 @@ body{
     font-family: 'Hanken Grotesk', sans-serif;
     font-weight: 700;
     color: hsl(241, 100%, 89%);
-    margin-top: 15px;
+    margin-top: 20px;
 }
 #ict{
     font-size: 15px;
@@ -159,6 +163,52 @@ body{
 }
 #spa{
     color: hsl(241, 89%, 83%);
+}
+@media(max-width: 414px){
+    .container{
+        border: 1px solid brown;
+        height: 100vh;
+        width: 80%;
+        flex-direction: column;
+    }
+    .design{
+        width: 100%;
+    }
+    .holder{
+        width: 100%;
+    }
+    .pass{
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .gee{
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .class{
+        height: 70px;
+        width: 70px;
+        border-radius: 35px;
+    }
+    #top{
+        font-size: 45px;
+    }
+    #down{
+        font-size: 15px;
+    }
+    #sum{
+        margin-top: 8px;
+    }
+    #ict{
+        font-size: 13px;
+    }
+    #spa{
+        font-size: 12px;
+    }
+    .fil{
+        font-size: 0px;
+    }
 }
 
 
